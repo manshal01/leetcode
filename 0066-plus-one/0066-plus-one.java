@@ -9,7 +9,7 @@ class Solution {
             }
         }
         
-        // If we reach here, it means all digits were 9s and got converted to 0s
+      
         int[] newNumber = new int[digits.length + 1];
         newNumber[0] = 1;
         return newNumber;
